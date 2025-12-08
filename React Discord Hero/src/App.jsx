@@ -11,7 +11,9 @@ function App() {
               can spend time together. A place that makes it easy to talk every
               day and hang out more often.
 `;
-
+  let toOsDownload = ["Mac", "Windows", "Linux"];
+  let softwareToOpen = "Discord";
+  let whereToOpenSoftware = "Browser";
   return (
     <>
       <div className="App">
@@ -24,6 +26,15 @@ function App() {
           <div className="info">
             <h1>{title}</h1>
             <p>{information}</p>
+          </div>
+
+          <div className="buttons">
+            <button type="button" className="downloadDiscordMac">
+              Download for {toOsDownload[0]}
+            </button>
+            <button type="button" className="browserDiscord">
+              Open {softwareToOpen} in your {whereToOpenSoftware}
+            </button>
           </div>
         </header>
       </div>
