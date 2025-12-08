@@ -31,15 +31,47 @@ header nav img:last-child {
   height: auto;
 }
 
+.info {
+  margin: 0 0 0 50px;
+}
+
 .info h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 3em;
   width: 270px;
-  margin: 40px 0 40px 0;
+  margin: 40px 0 24px 0;
 }
 
 .info p {
   width: 437px;
   margin: 0 0 20px 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2vh;
+  margin: 0 0 0 50px;
+}
+
+.downloadDiscordMac {
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.browserDiscord {
+  width: 220px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
 }

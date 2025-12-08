@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import discordLogo from "./assets/discord-logo-white.png";
 import menuIcon from "./assets/menu-icon.png";
+import discordBackground from "./assets/discord-background.png";
 // import viteLogo from '/vite.svg'
 import "./App.css";
 
@@ -30,12 +31,14 @@ function App() {
 
           <div className="buttons">
             <button type="button" className="downloadDiscordMac">
-              Download for {toOsDownload[0]}
+              Download For {toOsDownload[0]}
             </button>
             <button type="button" className="browserDiscord">
               Open {softwareToOpen} in your {whereToOpenSoftware}
             </button>
           </div>
+
+          <img src={discordBackground} alt="A background image showing 5 people sitting down and talking to each other, with a chair shaped like a video game controller and another shaped like a portable console, and one of these 5 people is drinking a beverage and looking outward" />
         </header>
       </div>
     </>
