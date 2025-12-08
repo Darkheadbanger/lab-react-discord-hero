@@ -75,3 +75,15 @@ header nav img:last-child {
   border: 0;
   cursor: pointer;
 }
+
+.image-hero {
+  position: relative;
+}
+
+.absolute-image-hero {
+  position: absolute;
+  top: -36vh;
+  left: 87vh;
+  right: 0;
+  bottom: 0;
+}

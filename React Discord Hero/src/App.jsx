@@ -38,7 +38,13 @@ function App() {
             </button>
           </div>
 
-          <img src={discordBackground} alt="A background image showing 5 people sitting down and talking to each other, with a chair shaped like a video game controller and another shaped like a portable console, and one of these 5 people is drinking a beverage and looking outward" />
+          <div className="image-hero">
+            <img
+              src={discordBackground}
+              alt="A background image showing 5 people sitting down and talking to each other, with a chair shaped like a video game controller and another shaped like a portable console, and one of these 5 people is drinking a beverage and looking outward"
+              className="absolute-image-hero"
+            />
+          </div>
         </header>
       </div>
     </>
