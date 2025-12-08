@@ -82,8 +82,8 @@ header nav img:last-child {
 
 .absolute-image-hero {
   position: absolute;
-  top: -36vh;
-  left: 87vh;
+  top: -24vh;
+  left: 70vh;
   right: 0;
   bottom: 0;
 }
