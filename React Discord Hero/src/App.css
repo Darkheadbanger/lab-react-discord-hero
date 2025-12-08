@@ -30,3 +30,16 @@ header nav img:last-child {
   width: 50px;
   height: auto;
 }
+
+.info h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+  width: 270px;
+  margin: 40px 0 40px 0;
+}
+
+.info p {
+  width: 437px;
+  margin: 0 0 20px 0;
+}
